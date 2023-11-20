@@ -18,10 +18,18 @@ Construct the SysKG-UTF
 Generate test scenarios
 1. run 7_generate_scenario.py
 
+Details of participant distribution in the user study of Section 4.4:
+
+The programming experience of the participants ranges from 1 to 10 years. Among them, 12 have used the Firefox Desktop browser with varying degrees of familiarity, and 12 have experience in testing. 4 participants have previously reported bugs to the open source community. Taking this information into account, We then pair two participants with similar backgrounds, one in the experimental group and the other in the control group. The pairing is guided by a clear set of priorities. The foremost consideration is participants' testing experience and history of reporting bugs, aligning with the testing-centric nature of user study. Furthermore, as our user study involves user operations, familiarity with the software being tested is our second priority, considering its direct impact on the testing process. Finally, as ET is a manual testing simulating user operations to find bugs and does not involve code-level activities, programming experience and educational background are considered as tertiary factors.
+
+The details in participant distribution are shown in [Participant Distribution in User Study](https://drive.google.com/file/d/1eWNQSciS89-QQYdR3pQq-Xfh2xidNEbT/view?usp=drive_link)
+, where SoftwareFamiliarity is s assessed by the Likert Scale, with 1 representing never used before and 5 signifying familiar.
+
+
 Bugs found
-1. Bug 1-22 found during the user study by the experimental group
-2. Bug 23-35 found during the user study by the control group
-3. Bug 36-59 found during the tool development and test scenario variation
+1. Bug 1-36 found during the user study by the experimental group
+2. Bug 36-56 found during the user study by the control group
+3. Bug 57-86 found during the tool development and test scenario variation
 
 | No.      | Bug ID | Period |
 | -------- | ------ | ------ |
@@ -47,41 +55,67 @@ Bugs found
 | 20 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844715 | user study |
 | 21 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844720 | user study |
 | 22 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844339 | user study |
-| 23 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844272 | user study |
-| 24 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844276 | user study |
-| 25 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844374 | user study |
-| 26 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844973 | user study |
-| 27 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844376 | user study |
-| 28 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844378 | user study |
-| 29 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844380 | user study |
-| 30 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844383 | user study |
-| 31 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844331 | user study |
-| 32 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844384 | user study |
-| 33 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844393 | user study |
-| 34 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844975 | user study |
-| 35 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844980 | user study |
-| 36 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844934 | others |
-| 37 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844790 | others |
-| 38 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844808 | others |
-| 39 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844316 | others |
-| 40 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844322 | others |
-| 41 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844984 | others |
-| 42 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844985 | others |
-| 43 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844987 | others |
-| 44 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844988 | others |
-| 45 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844937 | others |
-| 46 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844938 | others |
-| 47 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844778 | others |
-| 48 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844898 | others |
-| 49 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844899 | others |
-| 50 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844903 | others |
-| 51 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844932 | others |
-| 52 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844940 | others |
-| 53 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844969 | others |
-| 54 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844971 | others |
-| 55 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844399 | others |
-| 56 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844997 | others |
-| 57 | https://bugzilla.mozilla.org/show_bug.cgi?id=1845136 | others |
-| 58 | https://bugzilla.mozilla.org/show_bug.cgi?id=1846182 | others |
-| 59 | https://bugzilla.mozilla.org/show_bug.cgi?id=1846184 | others |
-
+| 23 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862130 | user study |
+| 24 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862134 | user study |
+| 25 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862893 | user study |
+| 26 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862164 | user study |
+| 27 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862175 | user study |
+| 28 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862193 | user study |
+| 29 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862355 | user study |
+| 30 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862354 | user study |
+| 31 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862183 | user study |
+| 32 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862974 | user study |
+| 33 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862188 | user study |
+| 34 | https://bugzilla.mozilla.org/show_bug.cgi?id=1863719 | user study |
+| 35 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862351 | user study |
+| 36 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862559 | user study |
+| 37 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844272 | user study |
+| 38 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844276 | user study |
+| 39 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844374 | user study |
+| 40 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844973 | user study |
+| 41 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844376 | user study |
+| 42 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844378 | user study |
+| 43 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844380 | user study |
+| 44 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844383 | user study |
+| 45 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844331 | user study |
+| 46 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844384 | user study |
+| 47 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844393 | user study |
+| 48 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844975 | user study |
+| 49 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844980 | user study |
+| 50 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862576 | user study |
+| 51 | https://bugzilla.mozilla.org/show_bug.cgi?id=1863004 | user study |
+| 52 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862811 | user study |
+| 53 | https://bugzilla.mozilla.org/show_bug.cgi?id=1863000 | user study |
+| 54 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862366 | user study |
+| 55 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862567 | user study |
+| 56 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862568 | user study |
+| 57 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844934 | others |
+| 58 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844790 | others |
+| 59 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844808 | others |
+| 60 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844316 | others |
+| 61 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844322 | others |
+| 62 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844984 | others |
+| 63 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844985 | others |
+| 64 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844987 | others |
+| 65 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844988 | others |
+| 66 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844937 | others |
+| 67 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844938 | others |
+| 68 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844778 | others |
+| 69 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844898 | others |
+| 70 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844899 | others |
+| 71 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844903 | others |
+| 72 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844932 | others |
+| 73 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844940 | others |
+| 74 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844969 | others |
+| 75 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844971 | others |
+| 76 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844399 | others |
+| 77 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844997 | others |
+| 78 | https://bugzilla.mozilla.org/show_bug.cgi?id=1845136 | others |
+| 79 | https://bugzilla.mozilla.org/show_bug.cgi?id=1846182 | others |
+| 80 | https://bugzilla.mozilla.org/show_bug.cgi?id=1846184 | others |
+| 81 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862360 | others |
+| 82 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862139 | others |
+| 83 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862138 | others |
+| 84 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862821 | others |
+| 85 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862823 | others |
+| 86 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862824 | others |
