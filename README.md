@@ -1,4 +1,4 @@
-Dataset link: [https://drive.google.com/file/d/1gRkdAUZm6lTWfAJ9byqlR2wd_DQ0_sYl/view?usp=sharing](https://drive.google.com/file/d/1mlAM1-lZ95zKKPxlUb4Ah9drMFLr7lRV/view?usp=sharing)
+![image](https://github.com/SysKG-UTF/BugExploring/assets/105098287/bacc570c-707d-47bc-bed0-faa89fbbfbf6)Dataset link: [https://drive.google.com/file/d/1gRkdAUZm6lTWfAJ9byqlR2wd_DQ0_sYl/view?usp=sharing](https://drive.google.com/file/d/1mlAM1-lZ95zKKPxlUb4Ah9drMFLr7lRV/view?usp=sharing)
 
 Directory prepare
 1. Construct the data directory under the root directory
@@ -18,18 +18,10 @@ Construct the SysKG-UTF
 Generate test scenarios
 1. run 7_generate_scenario.py
 
-Details of participant distribution in the user study of Section 4.4:
-
-The programming experience of the participants ranges from 1 to 10 years. Among them, 12 have used the Firefox Desktop browser with varying degrees of familiarity, and 12 have experience in testing. 4 participants have previously reported bugs to the open source community. Taking this information into account, We then pair two participants with similar backgrounds, one in the experimental group and the other in the control group. The pairing is guided by a clear set of priorities. The foremost consideration is participants' testing experience and history of reporting bugs, aligning with the testing-centric nature of user study. Furthermore, as our user study involves user operations, familiarity with the software being tested is our second priority, considering its direct impact on the testing process. Finally, as ET is a manual testing simulating user operations to find bugs and does not involve code-level activities, programming experience and educational background are considered as tertiary factors.
-
-The details in participant distribution are shown in [Participant Distribution in User Study](https://drive.google.com/file/d/1eWNQSciS89-QQYdR3pQq-Xfh2xidNEbT/view?usp=drive_link)
-, where SoftwareFamiliarity is s assessed by the Likert Scale, with 1 representing never used before and 5 signifying familiar.
-
-
 Bugs found
 1. Bug 1-36 found during the user study by the experimental group
 2. Bug 36-56 found during the user study by the control group
-3. Bug 57-86 found during the tool development and test scenario variation
+3. Bug 57-88 found during the tool development and test scenario variation
 
 | No.      | Bug ID | Period |
 | -------- | ------ | ------ |
@@ -63,12 +55,12 @@ Bugs found
 | 28 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862193 | user study |
 | 29 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862355 | user study |
 | 30 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862354 | user study |
-| 31 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862183 | user study |
-| 32 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862974 | user study |
-| 33 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862188 | user study |
-| 34 | https://bugzilla.mozilla.org/show_bug.cgi?id=1863719 | user study |
-| 35 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862351 | user study |
-| 36 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862559 | user study |
+| 31 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862559 | user study |
+| 32 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862183 | user study |
+| 33 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862974 | user study |
+| 34 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862188 | user study |
+| 35 | https://bugzilla.mozilla.org/show_bug.cgi?id=1863719 | user study |
+| 36 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862351 | user study |
 | 37 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844272 | user study |
 | 38 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844276 | user study |
 | 39 | https://bugzilla.mozilla.org/show_bug.cgi?id=1844374 | user study |
@@ -116,6 +108,8 @@ Bugs found
 | 81 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862360 | others |
 | 82 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862139 | others |
 | 83 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862138 | others |
-| 84 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862821 | others |
-| 85 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862823 | others |
-| 86 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862824 | others |
+| 84 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862352 | others |
+| 85 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862821 | others |
+| 86 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862823 | others |
+| 87 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862824 | others |
+| 88 | https://bugzilla.mozilla.org/show_bug.cgi?id=1862931 | others |
