@@ -1,4 +1,4 @@
-![image](https://github.com/SysKG-UTF/BugExploring/assets/105098287/bacc570c-707d-47bc-bed0-faa89fbbfbf6)Dataset link: [https://drive.google.com/file/d/1gRkdAUZm6lTWfAJ9byqlR2wd_DQ0_sYl/view?usp=sharing](https://drive.google.com/file/d/1mlAM1-lZ95zKKPxlUb4Ah9drMFLr7lRV/view?usp=sharing)
+Dataset link: [https://drive.google.com/file/d/1gRkdAUZm6lTWfAJ9byqlR2wd_DQ0_sYl/view?usp=sharing](https://drive.google.com/file/d/1mlAM1-lZ95zKKPxlUb4Ah9drMFLr7lRV/view?usp=sharing)
 
 Directory prepare
 1. Construct the data directory under the root directory
